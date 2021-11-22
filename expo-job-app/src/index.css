@@ -1,13 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&family=Roboto+Condensed:wght@400;700&family=Varela+Round&display=swap");
+
+:root {
+  --montserrat-font: "Montserrat", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+  --varela-font: "Varela Round", sans-serif;
+  --roboto-font: "Roboto Condensed", sans-serif;
+
+  --light-tone: #f6f7fb;
+  --grey-tone: #b1b4e2;
+
+  --dark-tone: #010010;
+  --dark-blue-tone: #0e1037;
+  --purple-blue-tone: #2c3070;
+  --light-purple-tone: #625694;
+  --light-red-tone: #a75e8c;
+  --mid-red-tone: #bd3f54;
+  --dark-red-tone: #310d27;
+  --orange-tone: #fe674c;
+  --yellow-tone: #ff9535;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
