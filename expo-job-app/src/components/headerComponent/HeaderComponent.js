@@ -10,9 +10,16 @@ export default class HeaderComponent extends React.Component{
   displayComponent(){
     return(
       <div className={styles.container}>
-        <h1><strong>Github</strong> Jobs</h1>
+        <div className = {styles.title}>
+          <h1>Github</h1>
+          <h3>Jobs</h3>
+        </div>
         <div className={styles.banner}>
-          Here goes the banner and search bar
+          <img src={"images/banner.png"} alt="banner"/>
+          <form className={styles.searchBar}>
+            <input type="text" placeholder="Title, companies, expertise or benefits"></input>
+            <button>Search</button>
+          </form>
         </div>
       </div>
     )

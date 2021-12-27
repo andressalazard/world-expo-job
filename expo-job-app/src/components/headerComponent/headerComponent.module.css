@@ -1,3 +1,103 @@
 .container {
   background-color: var(--dark-blue-tone);
+  padding: 1rem 2rem;
+}
+
+.title {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--yellow-tone);
+
+  font-family: var(--poppins-font);
+}
+
+.title h1 {
+  margin: 0;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.banner {
+  position: relative;
+  margin-top: 1rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.searchBar {
+  position: absolute;
+  width: 88%;
+  top: 25%;
+  left: 5%;
+  padding: 0.615rem 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+
+  display: flex;
+  gap: 2rem;
+  border-radius: 0.25rem;
+}
+
+.searchBar input {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  color: var(--dark-blue-tone);
+  outline: none;
+
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: var(--varela-font);
+}
+
+::placeholder {
+  color: var(--dark-blue-tone);
+  font-weight: 500;
+  opacity: 1;
+}
+
+.searchBar button {
+  padding: 0.75rem 2rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: var(--dark-blue-tone);
+  color: var(--yellow-tone);
+  font-size: 1.5rem;
+  font-family: var(--montserrat-font);
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .container {
+    background-color: var(--dark-blue-tone);
+    padding: 1rem;
+  }
+
+  .banner {
+    width: 93vw;
+    height: 100%;
+  }
+
+  .searchBar {
+    width: 93%;
+    height: 65%;
+    top: 8%;
+    left: 2%;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .searchBar input {
+    font-size: 1.025rem;
+  }
+  .searchBar button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.25rem;
+  }
 }
