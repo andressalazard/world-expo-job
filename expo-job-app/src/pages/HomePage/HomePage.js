@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderComponent from '../../components/headerComponent/HeaderComponent';
+import SettingsComponent from '../../components/settingsComponent/SettingsComponent';
 import styles from '../HomePage/HomePage.module.css';
 
 export default class HomePage extends React.Component{
@@ -9,6 +10,9 @@ export default class HomePage extends React.Component{
     return(
       <div className={styles.container}>
         <HeaderComponent/>
+        <div className={styles.body}>
+          <SettingsComponent/>
+        </div>
 
 
       </div>
