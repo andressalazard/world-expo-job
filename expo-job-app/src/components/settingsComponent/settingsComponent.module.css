@@ -1,19 +1,29 @@
 .body {
-  position: relative;
+  box-sizing: border-box;
   max-width: 400px;
   max-height: 600px;
   margin: 1rem;
   padding: 1rem;
 
-  background-color: var(--lighter-purple-tone);
+  background-color: rgba(44, 49, 112, 0.5);
   border-radius: 0.25rem;
+}
+
+.body h1 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-family: var(--montserrat-font);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--dark-blue-tone);
 }
 
 .searchForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 0.5rem;
+  gap: 1rem;
   box-sizing: border-box;
 }
 
@@ -32,5 +42,34 @@
 }
 
 .criteriaOption input[type="text"] {
-  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: var(--dark-blue-tone);
+  font-family: var(--varela-font);
+}
+
+.criteriaHeader {
+  color: var(--dark-blue-tone);
+  font-weight: 600;
+  font-family: var(--poppins-font);
+}
+
+.childOption input[type="checkbox"],
+.childOption input[type="radio"] {
+  margin-left: 0;
+}
+
+.searchForm button {
+  max-width: 80%;
+  padding: 0.75rem 1.5rem;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--dark-blue-tone);
+  color: var(--yellow-tone);
+  font-weight: 500;
 }
