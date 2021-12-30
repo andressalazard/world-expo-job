@@ -1,7 +1,5 @@
 .body {
-  /* border: 1px solid red; */
-  padding: 2rem 0;
-  padding-right: 2rem;
+  margin-bottom: 2rem;
   width: 900px;
 
   display: flex;

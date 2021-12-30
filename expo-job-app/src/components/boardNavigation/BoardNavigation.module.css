@@ -1,0 +1,43 @@
+.container {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  gap: 0.5rem;
+}
+
+.navSection {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--dark-blue-tone);
+  color: var(--yellow-tone);
+}
+
+.navSection:focus {
+  background-color: var(--yellow-tone);
+  color: var(--dark-blue-tone);
+  font-weight: bold;
+}
+
+.navButton {
+  font-size: 1.125rem;
+  background-color: rgba(44, 49, 112, 0.4);
+  color: var(--dark-blue-tone);
+  font-weight: bold;
+}
+.navButton:focus {
+  background-color: var(--yellow-tone);
+}
+
+.dots {
+  margin: auto 0;
+  color: var(--dark-blue-tone);
+}
+
+.pagesList {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import BoardNavigation from "../../components/boardNavigation/BoardNavigation";
 import HeaderComponent from "../../components/headerComponent/HeaderComponent";
 import JobBillboardComponent from "../../components/jobBillboardComponent/JobBillboardComponent";
 import SettingsComponent from "../../components/settingsComponent/SettingsComponent";
@@ -11,9 +12,17 @@ export default class HomePage extends React.Component {
         <HeaderComponent />
         <div className={styles.body}>
           <SettingsComponent />
-          <JobBillboardComponent />
+          <div className={styles.mainContent}>
+            <JobBillboardComponent />
+            <BoardNavigation />
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
+}
+
+function Footer() {
+  return <div className={styles.Footer}>develop by anfersadu</div>;
 }

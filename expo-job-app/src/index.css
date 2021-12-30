@@ -23,6 +23,10 @@
   --dark-red-tone: #310d27;
   --orange-tone: #fe674c;
   --yellow-tone: #ff9535;
+
+  --mid-purple-tone: rgba(44, 49, 112, 0.5);
+  --mid-purple-tone-2: rgba(44, 49, 112, 0.8);
+  --mid-grey-tone: rgba(255, 255, 255, 0.6);
 }
 
 body {

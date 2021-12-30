@@ -5,7 +5,7 @@
   margin: 2rem;
   padding: 1rem;
 
-  background-color: rgba(44, 49, 112, 0.5);
+  background-color: var(--mid-purple-tone);
   border-radius: 0.25rem;
 }
 
